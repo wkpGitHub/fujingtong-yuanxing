@@ -6,6 +6,12 @@
 a {
   cursor: pointer;
 }
+#leftPanel, .vsplitbar{
+  display: none;
+}
+#rightPanel{
+  left: 0 !important;
+}
 #maximizePanelContainer {
   font-size: 4px;
   position:absolute;
